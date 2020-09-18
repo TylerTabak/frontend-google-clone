@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div>
+                <a class="unselectable navigation">About</a>
+                <a class="unselectable navigation">Store</a>
+            </div>
+            <div>
+                <a class="unselectable navigation">Gmail</a>
+                <a class="unselectable navigation">Images</a>
+                <i class="fa fa-th" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div id="content">
+            <div id="title">
+                <div class="g">G</div>
+                <div class="o">o</div>
+                <div class="o-2">o</div>
+                <div class="g-2">g</div>
+                <div class="l">l</div>
+                <div class="e">e</div>
+            </div><br>
+            <input type="text" id="search-bar">
+            <div id="buttons"><button class="btn">Google Search</button><button class="btn">I'm Feeling Lucky</button></div>
+        </div>
+        <div id="footer">
+            <div id="footer-title">Canada</div>
+            <div id="footer-buttons">
+                <div id="left-footer">
+                    <a class="unselectable">Advertising</a>
+                    <a class="unselectable">Business</a>
+                    <a class="unselectable">How Search Works</a>
+                </div>
+                <div id="right-footer">
+                    <a>Privacy</a>
+                    <a>Terms</a>
+                    <a>Settings</a>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        window.onload = function() {
+            var input = document.getElementById("search-bar").focus();
+        }
+    </script>
+</html>
