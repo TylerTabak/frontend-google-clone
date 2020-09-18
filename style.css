@@ -18,19 +18,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
+    height: 475px;
     flex-direction: column;
 }
 #title{
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     display: flex;
     flex-direction: row;
 }
 #search-bar{
     height: 45px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     width: 500px;
     border-radius: 20px;
     padding: 0 15px;
@@ -42,8 +42,9 @@ body{
     color: #5f6368;
     outline: none;
     border: none;
-    padding: 10px;
-    margin: 0 10px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
 }
 
 .btn:hover{
@@ -106,6 +107,24 @@ body{
 
 #footer div a{
     margin-right: 20px;
+}
+
+
+#footer-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-buttons a:hover{
+    text-decoration: underline;
+}
+
+#footer-title{
+    margin-left:25px;
+}
+
+#left-footer, #right-footer{
+    margin:0 25px;
 }
 
 
